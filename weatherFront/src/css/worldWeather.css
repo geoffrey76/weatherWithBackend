@@ -1,0 +1,152 @@
+
+#imgContainer{
+    width: 80vw;
+    min-width: 700px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+}
+#cityInput{
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+    color: bisque;
+    z-index: 1000;
+}
+#gotoContact{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 100px;
+    z-index: 1000;
+    background-color: bisque;
+}
+.backGroundImage{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+}
+#searchButton{
+    margin: 10px;
+    background-color: bisque;
+    
+}
+#searchButton:hover, button:hover{
+    cursor: pointer;
+}
+#title{
+    width: 100%;
+    border-bottom: solid black 5px;
+    position: absolute;
+    top: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    color: bisque;
+}
+#imgCondition{
+    position: relative;
+    top: 5px;
+}
+
+h1{
+    margin-left: 20px;
+    color: bisque;
+   margin-bottom: 0;
+   font-size: 1.5em;
+   font-weight: 900;
+}
+#mainWorldWx{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    top: 130px;
+    color: bisque;
+}
+
+aside{
+    margin-left: 20px;
+}
+h2{
+    font-size: 1em;
+    margin: 0;
+}
+#forecast{
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    row-gap: 0;
+   margin-right: 30px;
+}
+.forecastDay{
+    cursor: pointer;
+    opacity: 0.5;
+    border-right: solid;
+    border-left: solid;
+    color: bisque;
+}
+.forecastDayVisible{
+    opacity: 1;
+    border-left: solid;
+    border-right: solid;
+}
+.forecastDayInvisible{
+    opacity: 0.5;
+    border-left: none;
+    border-right: none;
+}
+
+.forecast{
+   
+    color: bisque;
+    
+}
+h3{
+    font-size: 1em;
+    margin: 0 5px 0 5px;
+
+    text-align: center;
+}
+
+h4{
+    font-size: 0.7em;
+   margin: 0;
+    text-align: center;
+    padding: 3px;
+}
+#hourForecast{
+    width: 100%;
+    position: absolute;
+    top: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.imgForecastHour{
+    display: flex;
+    justify-content: center;
+}
+#imgSource{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+#imgSource a{
+    color: bisque;
+    opacity: 0.5;
+}
+#dataSource{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+#dataSource a{
+    color: bisque;
+    opacity: 0.5;
+}
