@@ -80,7 +80,7 @@ h2{
 #forecast{
     cursor: pointer;
     display: grid;
-    grid-template-columns: 120px 120px 120px;
+    grid-template-columns: 130px 130px 130px;
     row-gap: 0;
    margin-right: 30px;
 }
