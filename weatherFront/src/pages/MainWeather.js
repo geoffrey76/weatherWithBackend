@@ -118,7 +118,7 @@ const MainWeather = ()=>{
                     <HoursForecast forecast={wxData.forecast} dayNum={day} /> 
                 </div> 
                 <div id="dataSource"><a href="https://rapidapi.com">data from RapidAPI</a></div>
-                <div id="imgSource"><a href="https://www.pexels.com/fr-fr/">image from renders.com</a></div>
+                <div id="imgSource"><a href="https://www.pexels.com/fr-fr/">image from pexels.com</a></div>
             </div>
             
             </>
